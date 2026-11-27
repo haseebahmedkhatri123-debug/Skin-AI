@@ -1,0 +1,14 @@
+# Large / generated artifacts (the model is hosted on Hugging Face instead)
+models/
+data/
+reports/
+*.zip
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Local Streamlit secrets
+.streamlit/secrets.toml

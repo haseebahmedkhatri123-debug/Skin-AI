@@ -1,0 +1,9 @@
+# Everything needed to prepare data, train and evaluate (on top of the app deps).
+#   pip install -r requirements-train.txt
+# For an NVIDIA GPU, install the CUDA build of torch/torchvision first, e.g.:
+#   pip install torch==2.15.0 torchvision==0.29.2 --index-url https://download.pytorch.org/whl/cu128
+-r requirements.txt
+kagglehub==1.0.3
+pandas==3.1.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
